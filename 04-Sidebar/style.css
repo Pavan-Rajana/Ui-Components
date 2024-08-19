@@ -242,7 +242,7 @@ body.collapsed .hide {
 	height: 1.25rem;
 }
 
-body.collapsed .expand-btn svg {
+body.collapsed .expand-btn img {
 	transform: rotate(-360deg);
 }
 
