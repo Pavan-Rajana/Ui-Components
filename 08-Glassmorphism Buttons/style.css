@@ -10,10 +10,19 @@
 body {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	margin-bottom: 65px;
+	/* color: #7c65a9, #96d4ca; */
+	color: #96d4ca;
 }
 
 .container {
@@ -138,4 +147,3 @@ body {
 	box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
 		0 0 60px #1eff45;
 }
-
