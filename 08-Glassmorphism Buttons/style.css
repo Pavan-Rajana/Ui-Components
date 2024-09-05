@@ -85,7 +85,7 @@ body {
 	content: "";
 	position: absolute;
 	left: 50%;
-	transform: translatex(-50%);
+	transform: translateX(-50%);
 	bottom: -5px;
 	width: 30px;
 	height: 10px;
@@ -94,7 +94,7 @@ body {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.container .btn:hover::before /*lightup button*/ {
+.container .btn:hover::before /*light up button*/ {
 	bottom: 0;
 	height: 50%;
 	width: 80%;
@@ -105,7 +105,7 @@ body {
 	content: "";
 	position: absolute;
 	left: 50%;
-	transform: translatex(-50%);
+	transform: translateX(-50%);
 	top: -5px;
 	width: 30px;
 	height: 10px;
@@ -114,13 +114,13 @@ body {
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
-.container .btn:hover::after /*lightup button*/ {
+.container .btn:hover::after /*light up button*/ {
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
-.container .btn:nth-child(1)::before, /*chnage 1*/
+.container .btn:nth-child(1)::before, /*change 1*/
 .container .btn:nth-child(1)::after {
 	background: #ff1f71;
 	box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
@@ -138,3 +138,4 @@ body {
 	box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
 		0 0 60px #1eff45;
 }
+
