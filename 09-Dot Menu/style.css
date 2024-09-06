@@ -4,10 +4,18 @@
 
 body {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
 	align-items: center;
 	background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 4px;
+	color: #b6c7aa;
 }
 
 .navigation {
