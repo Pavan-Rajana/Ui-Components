@@ -8,15 +8,6 @@ body {
   color: #f8fafc;
 }
 
-.app {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 header {
   display: flex;
   flex-direction: column;
